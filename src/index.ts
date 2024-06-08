@@ -1,7 +1,5 @@
 import Aliment from "./models/aliment.js";
-const panier = new Aliment('.fruit-option','.legume-option','.aliments-container');
- 
- 
-
+import Aliments from "./components/aliments.js"
+const panier = new Aliments('.aliments-container');
  
  
